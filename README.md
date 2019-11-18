@@ -8,13 +8,9 @@ The first step in my analysis is mapping the relationships between tables (inclu
 ![EmployeeDB](https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/EmployeeDB.png)
 
 My next step is creating queries to create tables and import data from csv files. 
-
 The queries for this step is saved at https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/schema.sql
-
 Once the tables are created, my tasks now is writing a variety of queries in order to extract required data and save for later use. 
-
 The queries for this step is saved at https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/queries.sql along with the result table:
-
 Retiring employees who is born between 1952 and 1955, hired from 1985 to 1988 and last date of employment is 9999-01-01  https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/Data/current_emp.csv
  
  As shown in this table, 33118 PH employees are eligible for retirement.
