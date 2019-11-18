@@ -15,7 +15,7 @@ The queries for this step is saved at https://github.com/Thinguyen23/Thi_Nguyen_
 Retiring employees who is born between 1952 and 1955, hired from 1985 to 1988 and last date of employment is 9999-01-01  https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/Data/current_emp.csv
  
  As shown in this table, 33118 PH employees are eligible for retirement.
-    
+## Challenge    
 The challenge I was given is to create a new list of potential mentors with their latest titles who are current employees that are retiring, and a list of newly hired employees who are in need of mentorship. These are the steps I took in order to complete the challenge:
 
 (queries can be found at https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/Thi_challenge_queries.sql)
