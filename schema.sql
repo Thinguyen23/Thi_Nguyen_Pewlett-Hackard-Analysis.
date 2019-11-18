@@ -24,21 +24,20 @@ Create table dept_manger(
 	Primary Key (emp_no, dept_no)
 );
 Create table dept_emp(
-	dept_no varchar(4) not null,
 	emp_no int not null,
+	dept_no varchar(4) not null,
 	from_date date not null,
 	to_date date not null,
 	Foreign Key (dept_no) References departments (dept_no),
 	Foreign Key (emp_no) References employees (emp_no),
-	Primary Key (dept_no, emp_no)
+	Primary Key (emp_no, dept_no)
 );
 Create table titles(
 	emp_no int not null,
 	title varchar(50) not null,
 	from_date date not null,
 	to_date date not null,
-	Foreign Key (emp_no) References employees (emp_no),
-	Primary Key (emp_no)
+	Foreign Key (emp_no) References employees (emp_no)
 );
 Create table salaries(
 	emp_no int not null,
@@ -48,4 +47,11 @@ Create table salaries(
 	Foreign Key (emp_no) References employees (emp_no),
 	Primary Key (emp_no)
 );
-Select * from departments;
+Select * from dept_emp;
+
+
+
+
+
+
+
