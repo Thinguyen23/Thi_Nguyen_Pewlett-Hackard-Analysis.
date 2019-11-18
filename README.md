@@ -5,7 +5,7 @@ Using Postgres SQL, I was able to extract data from the 6 database given and cre
 
 The first step in my analysis is mapping the relationships between tables (including primary keys and foreign keys) in the database using Quick Database Diagrams.
 
-        ![EmployeeDB](https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/EmployeeDB.png)
+![EmployeeDB](https://github.com/Thinguyen23/Thi_Nguyen_Pewlett-Hackard-Analysis./blob/master/EmployeeDB.png)
 
 My next step is creating queries to create tables and import data from csv files. 
 
